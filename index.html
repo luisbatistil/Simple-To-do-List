@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>To do list</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="header"><h1>Simple to do list</h1></div>
+
+      <div id="input forms">
+        <input
+          type="text"
+          id="input_box"
+          name="input_box"
+          placeholder="add task"
+        />
+
+        <button id="input_btn" onclick="addtask()">Add</button>
+
+        <h2>Task lisk</h2>
+        <ul id="mylist"></ul>
+
+        <div id="counter-container">
+          <div id="task-counter">
+            Completed: <span id="Completed-counter">0</span> | Uncompleted task:
+            <span id="uncompleted-counter">0</span>
+          </div>
+        </div>
+      </div>
+
+      <div id="footer">
+        <h5>&copy; all right reserve coding with luis 2026</h5>
+      </div>
+    </div>
+
+    <script href="scripts.js"></script>
+  </body>
+</html>
