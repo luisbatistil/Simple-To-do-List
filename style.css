@@ -1,0 +1,75 @@
+.completed {
+  text-decoration: line-through;
+  color: rgb(250, 249, 249);
+  border: 1px solid rgb(255, 255, 255);
+}
+
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#container {
+    background-color: rgb(30, 30, 30);
+    border-radius:10px;
+    box-shadow: 0px 0px 15px 4px white;
+    height: 400px;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    overflow: scroll;
+    padding: 20px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+#mylist {
+    align-items: center;
+    justify-content: center;
+    overflow-wrap: break-word;
+    list-style-type: none;
+    max-width: 200px;
+    min-height: 0;
+}
+
+li {
+    border: solid white 1px;
+}
+
+#input_box{
+    align-items: center; 
+    position: sticky;
+    min-height: 0;
+    top:0;
+}
+
+#input_btn {
+    align-items: center; 
+    position: sticky;
+    min-height: 0;
+    top:0;
+}
+
+#header {
+    align-items: center; 
+    position: sticky;
+    top:40;
+    margin-bottom: auto;
+}
+
+#footer {
+    margin-top: auto;
+}
+
+#input_forms {
+    color: black;
+}
